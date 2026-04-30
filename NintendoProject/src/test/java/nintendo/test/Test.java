@@ -16,11 +16,11 @@ public class Test {
 		Console c3 = new Console("DS3D");
 		
 
-		Jeu j1 = new jeu("Mario Bros",c3);
-		Jeu j2 = new jeu("Spider Man",c1);
-		Jeu j3 = new jeu("Tomadochi life",c3);
-		Jeu j4 = new jeu("Zelda : Breath of the wild ",c2);
-		Jeu j5 = new jeu("Call of Duty Black OPS 35",c1);
+		Jeu j1 = new Jeu("Mario Bros",c3);
+		Jeu j2 = new Jeu("Spider Man",c1);
+		Jeu j3 = new Jeu("Tomadochi life",c3);
+		Jeu j4 = new Jeu("Zelda : Breath of the wild ",c2);
+		Jeu j5 = new Jeu("Call of Duty Black OPS 35",c1);
 		
 	}
 
