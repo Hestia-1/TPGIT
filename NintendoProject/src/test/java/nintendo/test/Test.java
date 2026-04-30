@@ -1,7 +1,6 @@
 package nintendo.test;
 
-import java.io.Console;
-
+import nintendo.model.Console;
 import nintendo.model.Jeu;
 
 public class Test {
