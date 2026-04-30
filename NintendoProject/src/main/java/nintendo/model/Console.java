@@ -7,11 +7,11 @@ import java.time.LocalDate;
 public abstract class Console {
 
 	protected String nom;
-	 protected double prix;
+	protected double prix;
     protected LocalDate dateSortie;
 
 
-	public Console(String nom) {
+	public Console(String nom, double prix, LocalDate dateSortie) {
 		this.nom = nom;
 		this.prix = prix;
         this.dateSortie = dateSortie;
