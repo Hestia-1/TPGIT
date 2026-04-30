@@ -2,6 +2,7 @@ package nintendo.test;
 
 import java.time.LocalDate;
 
+import nintendo.model.Achat;
 import nintendo.model.Adresse;
 import nintendo.model.Boutique;
 import nintendo.model.Client;
@@ -30,6 +31,17 @@ public class Test {
 		Jeu j3 = new Jeu("Tomadochi life", c3, boutique);
 		Jeu j4 = new Jeu("Zelda : Breath of the child ", c2, boutique);
 		Jeu j5 = new Jeu("Call of Duty Black OPS 35", c1, boutique);
+
+		Achat a1 = new Achat(j1, LocalDate.parse("2025-02-14"), 29.99);
+		Achat a2 = new Achat(j2, LocalDate.parse("2025-05-20"), 59.99);
+		Achat a3 = new Achat(j4, LocalDate.parse("2025-10-01"), 49.99);
+		Achat a4 = new Achat(j5, LocalDate.parse("2025-12-04"), 69.99);
+		
+        client1.ajouterAchat(a1);
+        client1.ajouterAchat(a2);
+
+        client2.ajouterAchat(a3);
+        client2.ajouterAchat(a4);
 
 	}
 
