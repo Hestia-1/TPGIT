@@ -39,7 +39,11 @@ public class Client {
 
 	@Override
 	public String toString() {
-		return "Client [nom=" + nom + ", prenom=" + prenom + "]";
+	    String result = "Client : " + nom + " " + prenom + "\nAchats :\n";
+	    for (Achat a : listeAchat) {
+	        result += "  - " + a + "\n";
+	    }
+	    return result;
 	}
 	
 	
