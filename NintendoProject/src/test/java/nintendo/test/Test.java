@@ -43,6 +43,19 @@ public class Test {
         client2.ajouterAchat(a3);
         client2.ajouterAchat(a4);
 
+        
+        
+     // Afficher les clients et leurs achats
+        System.out.println(client1);
+        System.out.println(client2);
+
+        // Afficher tous les jeux
+        System.out.println("\n--- Jeux disponibles ---");
+        System.out.println(j1);
+        System.out.println(j2);
+        System.out.println(j3);
+        System.out.println(j4);
+        System.out.println(j5);
 	}
 
 }
